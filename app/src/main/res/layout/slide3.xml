@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFF"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="310dp"
+        android:layout_marginTop="150dp">
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="250dp"
+            android:src="@drawable/track"
+            android:id="@+id/lottie"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Attendance Tracker"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/lottie"
+            android:fontFamily="@font/bold"
+            android:layout_marginLeft="60dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="26sp"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Student can track their attendance on daily bases."
+        android:textSize="15sp"
+        android:fontFamily="@font/regular"
+        android:textColor="#939292"
+        />
+
+
+</LinearLayout>

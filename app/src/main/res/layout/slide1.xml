@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFF"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="450dp"
+            android:layout_height="250dp"
+            android:id="@+id/lottie"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"
+            app:lottie_rawRes="@raw/files">
+        </com.airbnb.lottie.LottieAnimationView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exel Sheet Creation"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/lottie"
+            android:fontFamily="@font/bold"
+            android:layout_marginLeft="90dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="26sp"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="An Exelsheet is created after the attendance is taken."
+        android:textSize="15sp"
+        android:fontFamily="@font/regular"
+        android:textColor="#939292"
+        />
+
+
+</LinearLayout>
